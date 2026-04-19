@@ -1,0 +1,67 @@
+{
+  "checkpoint_hours_local": [
+    6,
+    11,
+    14,
+    18
+  ],
+  "collector_state": "idle_review_needed_today",
+  "current_checkpoint_key": "2026-04-19T14:00-05:00",
+  "daily_run_active": false,
+  "daily_status": {
+    "attempted": false,
+    "audit_passed": null,
+    "checked_at": "2026-04-19T14:07:11-05:00",
+    "dashboard_path": null,
+    "export_path": null,
+    "heartbeat_path": null,
+    "heartbeat_sync_reason": null,
+    "heartbeat_sync_status": null,
+    "local_date": "2026-04-19",
+    "reason": "already_captured_today_needs_review",
+    "run_id": null,
+    "status": "review_needed",
+    "summary_path": null
+  },
+  "generated_at": "2026-04-19T14:07:11-05:00",
+  "generated_at_utc": "2026-04-19T19:07:11+00:00",
+  "heartbeat_version": 2,
+  "latest_audited_success": {
+    "aborted_reason": null,
+    "audit_failed_checks": 0,
+    "audit_passed": 1,
+    "completed_tasks": 540,
+    "failed_tasks": 0,
+    "finished_at": "2026-04-18T10:31:11+00:00",
+    "planned_tasks": 540,
+    "run_id": "run_20260418T101538Z_62048c",
+    "started_at": "2026-04-18T10:15:38+00:00",
+    "status": "completed"
+  },
+  "latest_run": {
+    "aborted_reason": null,
+    "audit_failed_checks": 1,
+    "audit_passed": 0,
+    "completed_tasks": 540,
+    "failed_tasks": 0,
+    "finished_at": "2026-04-19T11:34:10+00:00",
+    "planned_tasks": 540,
+    "run_id": "run_20260419T111754Z_d92e4b",
+    "started_at": "2026-04-19T11:17:54+00:00",
+    "status": "completed"
+  },
+  "local_date": "2026-04-19",
+  "machine_alive": true,
+  "machine_name": "comp-price-strategy-host",
+  "project": "comp-price-strategy",
+  "scheduler_interval_minutes": 30,
+  "timezone": "America/Chicago",
+  "watchdog": {
+    "daily_completion_deadline_local": {
+      "hour": 11,
+      "minute": 35
+    },
+    "max_heartbeat_age_minutes": 75,
+    "remote_path": "state/comp-price-strategy-heartbeat.json"
+  }
+}

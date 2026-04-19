@@ -1,0 +1,83 @@
+name: comp-price-strategy-watchdog
+
+on:
+  schedule:
+    - cron: "35,50 6,11,14,18 * * *"
+      timezone: "America/Chicago"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      HEARTBEAT_PATH: state/comp-price-strategy-heartbeat.json
+      WATCHDOG_TIMEZONE: America/Chicago
+    steps:
+      - name: Checkout watchdog repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate heartbeat
+        id: validate
+        run: |
+          set -euo pipefail
+          python ops/github_watchdog/check_heartbeat.py \
+            --heartbeat-path "$HEARTBEAT_PATH" \
+            --timezone "$WATCHDOG_TIMEZONE" \
+            > watchdog-result.json || true
+          cat watchdog-result.json
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          result = json.loads(Path("watchdog-result.json").read_text(encoding="utf-8"))
+          with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as handle:
+              handle.write(f"alert_required={'true' if not result['ok'] else 'false'}\n")
+          PY
+
+      - name: Send Telegram alert
+        if: steps.validate.outputs.alert_required == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          from urllib.parse import urlencode
+          from urllib.request import urlopen
+
+          result = json.loads(Path("watchdog-result.json").read_text(encoding="utf-8"))
+          message = (
+              "Comp Price Strategy watchdog alert\n"
+              f"{result['message']}\n"
+              f"Failure type: {result.get('failure_type')}\n"
+              f"Checked at: {result['checked_at']}\n"
+              f"Heartbeat age: {result.get('heartbeat_age_minutes')}\n"
+              f"Daily status: {result.get('daily_status')}\n"
+              f"Collector state: {result.get('collector_state')}"
+          )
+          body = urlencode(
+              {
+                  "chat_id": os.environ["TELEGRAM_CHAT_ID"],
+                  "text": message,
+              }
+          ).encode("utf-8")
+          token = os.environ["TELEGRAM_BOT_TOKEN"]
+          with urlopen(f"https://api.telegram.org/bot{token}/sendMessage", data=body, timeout=30) as response:
+              print(response.read().decode("utf-8"))
+          PY
+
+      - name: Mark watchdog failure
+        if: steps.validate.outputs.alert_required == 'true'
+        run: exit 1
