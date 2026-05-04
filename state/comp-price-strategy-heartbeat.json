@@ -5,9 +5,9 @@
     14,
     18
   ],
-  "collector_state": "idle_retry_pending",
+  "collector_state": "run_in_progress",
   "current_checkpoint_key": "2026-05-04T11:00-05:00",
-  "daily_run_active": false,
+  "daily_run_active": true,
   "daily_status": {
     "attempted": true,
     "audit_passed": false,
@@ -25,8 +25,8 @@
     "status": "retry_later",
     "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20260504T170309Z_827343-summary.json"
   },
-  "generated_at": "2026-05-04T12:30:25-05:00",
-  "generated_at_utc": "2026-05-04T17:30:25+00:00",
+  "generated_at": "2026-05-04T13:00:27-05:00",
+  "generated_at_utc": "2026-05-04T18:00:27+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -42,15 +42,15 @@
   },
   "latest_run": {
     "aborted_reason": null,
-    "audit_failed_checks": 4,
-    "audit_passed": 0,
-    "completed_tasks": 336,
-    "failed_tasks": 6,
-    "finished_at": "2026-05-04T17:18:24+00:00",
+    "audit_failed_checks": 0,
+    "audit_passed": null,
+    "completed_tasks": 0,
+    "failed_tasks": 0,
+    "finished_at": null,
     "planned_tasks": 540,
-    "run_id": "run_20260504T170309Z_827343",
-    "started_at": "2026-05-04T17:03:09+00:00",
-    "status": "completed"
+    "run_id": "run_20260504T174825Z_466801",
+    "started_at": "2026-05-04T17:48:25+00:00",
+    "status": "running"
   },
   "local_date": "2026-05-04",
   "machine_alive": true,
