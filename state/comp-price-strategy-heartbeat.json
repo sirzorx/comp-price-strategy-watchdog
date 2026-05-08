@@ -5,15 +5,15 @@
     14,
     18
   ],
-  "collector_state": "run_in_progress",
+  "collector_state": "idle_retry_pending",
   "current_checkpoint_key": "2026-05-08T06:00-05:00",
-  "daily_run_active": true,
+  "daily_run_active": false,
   "daily_status": {
     "attempted": true,
     "audit_passed": false,
-    "checked_at": "2026-05-08T06:09:13-05:00",
+    "checked_at": "2026-05-08T06:55:56-05:00",
     "dashboard_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/reports/dashboard.html",
-    "export_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/data/run_20260508T110913Z_f744f9.csv",
+    "export_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/data/run_20260508T115556Z_72f7d9.csv",
     "heartbeat_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/reports/heartbeat.json",
     "heartbeat_sync_reason": "daily_run_local_only",
     "heartbeat_sync_status": "skipped",
@@ -21,12 +21,12 @@
     "notification_reason": "incident_alert_sent",
     "notification_status": "sent",
     "reason": "run_failed_or_audit_failed",
-    "run_id": "run_20260508T110913Z_f744f9",
+    "run_id": "run_20260508T115556Z_72f7d9",
     "status": "retry_later",
-    "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20260508T110913Z_f744f9-summary.json"
+    "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20260508T115556Z_72f7d9-summary.json"
   },
-  "generated_at": "2026-05-08T07:05:42-05:00",
-  "generated_at_utc": "2026-05-08T12:05:42+00:00",
+  "generated_at": "2026-05-08T07:35:45-05:00",
+  "generated_at_utc": "2026-05-08T12:35:45+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -42,15 +42,15 @@
   },
   "latest_run": {
     "aborted_reason": null,
-    "audit_failed_checks": 0,
-    "audit_passed": null,
-    "completed_tasks": 0,
-    "failed_tasks": 0,
-    "finished_at": null,
+    "audit_failed_checks": 2,
+    "audit_passed": 0,
+    "completed_tasks": 476,
+    "failed_tasks": 64,
+    "finished_at": "2026-05-08T12:13:05+00:00",
     "planned_tasks": 540,
     "run_id": "run_20260508T115556Z_72f7d9",
     "started_at": "2026-05-08T11:55:56+00:00",
-    "status": "running"
+    "status": "completed"
   },
   "local_date": "2026-05-08",
   "machine_alive": true,
