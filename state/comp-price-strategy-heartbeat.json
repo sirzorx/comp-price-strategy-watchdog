@@ -5,13 +5,13 @@
     14,
     18
   ],
-  "collector_state": "idle_completed_today",
-  "current_checkpoint_key": "2026-05-09T18:00-05:00",
+  "collector_state": "idle_no_today_status",
+  "current_checkpoint_key": null,
   "daily_run_active": false,
   "daily_status": {
     "attempted": false,
     "audit_passed": null,
-    "checked_at": "2026-05-09T23:23:23-05:00",
+    "checked_at": "2026-05-09T23:53:23-05:00",
     "dashboard_path": null,
     "export_path": null,
     "heartbeat_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/reports/heartbeat.json",
@@ -25,8 +25,8 @@
     "status": "success",
     "summary_path": null
   },
-  "generated_at": "2026-05-09T23:38:05-05:00",
-  "generated_at_utc": "2026-05-10T04:38:05+00:00",
+  "generated_at": "2026-05-10T00:08:06-05:00",
+  "generated_at_utc": "2026-05-10T05:08:06+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -52,7 +52,7 @@
     "started_at": "2026-05-09T10:07:21+00:00",
     "status": "completed"
   },
-  "local_date": "2026-05-09",
+  "local_date": "2026-05-10",
   "machine_alive": true,
   "machine_name": "comp-price-strategy-main",
   "project": "comp-price-strategy",
