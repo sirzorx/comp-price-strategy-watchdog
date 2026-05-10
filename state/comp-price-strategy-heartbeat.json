@@ -5,9 +5,9 @@
     14,
     18
   ],
-  "collector_state": "idle_skipped",
+  "collector_state": "run_in_progress",
   "current_checkpoint_key": null,
-  "daily_run_active": false,
+  "daily_run_active": true,
   "daily_status": {
     "attempted": false,
     "audit_passed": null,
@@ -25,8 +25,8 @@
     "status": "skipped",
     "summary_path": null
   },
-  "generated_at": "2026-05-10T05:08:22-05:00",
-  "generated_at_utc": "2026-05-10T10:08:22+00:00",
+  "generated_at": "2026-05-10T05:38:23-05:00",
+  "generated_at_utc": "2026-05-10T10:38:23+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -43,14 +43,14 @@
   "latest_run": {
     "aborted_reason": null,
     "audit_failed_checks": 0,
-    "audit_passed": 1,
-    "completed_tasks": 540,
+    "audit_passed": null,
+    "completed_tasks": 0,
     "failed_tasks": 0,
-    "finished_at": "2026-05-09T10:23:12+00:00",
+    "finished_at": null,
     "planned_tasks": 540,
-    "run_id": "run_20260509T100721Z_ed48c5",
-    "started_at": "2026-05-09T10:07:21+00:00",
-    "status": "completed"
+    "run_id": "run_20260510T102327Z_f1ecc4",
+    "started_at": "2026-05-10T10:23:27+00:00",
+    "status": "running"
   },
   "local_date": "2026-05-10",
   "machine_alive": true,
