@@ -5,13 +5,13 @@
     14,
     18
   ],
-  "collector_state": "idle_completed_today",
+  "collector_state": "run_in_progress",
   "current_checkpoint_key": "2026-05-18T14:00-05:00",
-  "daily_run_active": false,
+  "daily_run_active": true,
   "daily_status": {
     "attempted": false,
     "audit_passed": null,
-    "checked_at": "2026-05-18T17:03:03-05:00",
+    "checked_at": "2026-05-18T17:33:03-05:00",
     "dashboard_path": null,
     "export_path": null,
     "heartbeat_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/reports/heartbeat.json",
@@ -25,8 +25,8 @@
     "status": "success",
     "summary_path": null
   },
-  "generated_at": "2026-05-18T17:27:49-05:00",
-  "generated_at_utc": "2026-05-18T22:27:49+00:00",
+  "generated_at": "2026-05-18T17:57:51-05:00",
+  "generated_at_utc": "2026-05-18T22:57:51+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -43,14 +43,14 @@
   "latest_run": {
     "aborted_reason": null,
     "audit_failed_checks": 0,
-    "audit_passed": 1,
-    "completed_tasks": 990,
+    "audit_passed": null,
+    "completed_tasks": 0,
     "failed_tasks": 0,
-    "finished_at": "2026-05-18T11:02:53+00:00",
-    "planned_tasks": 990,
-    "run_id": "run_20260518T102618Z_5c70e4",
-    "started_at": "2026-05-18T10:26:18+00:00",
-    "status": "completed"
+    "finished_at": null,
+    "planned_tasks": 1110,
+    "run_id": "run_20260518T225439Z_fa7c40",
+    "started_at": "2026-05-18T22:54:39+00:00",
+    "status": "running"
   },
   "local_date": "2026-05-18",
   "machine_alive": true,
