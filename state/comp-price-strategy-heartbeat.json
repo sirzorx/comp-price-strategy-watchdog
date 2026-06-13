@@ -11,7 +11,7 @@
   "daily_status": {
     "attempted": false,
     "audit_passed": null,
-    "checked_at": "2026-06-12T22:13:28-05:00",
+    "checked_at": "2026-06-12T22:43:28-05:00",
     "dashboard_path": null,
     "export_path": null,
     "heartbeat_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/reports/heartbeat.json",
@@ -25,8 +25,8 @@
     "status": "success",
     "summary_path": null
   },
-  "generated_at": "2026-06-12T22:15:50-05:00",
-  "generated_at_utc": "2026-06-13T03:15:50+00:00",
+  "generated_at": "2026-06-12T22:45:51-05:00",
+  "generated_at_utc": "2026-06-13T03:45:51+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
