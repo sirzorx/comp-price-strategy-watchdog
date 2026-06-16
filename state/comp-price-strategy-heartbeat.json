@@ -5,9 +5,9 @@
     14,
     18
   ],
-  "collector_state": "idle_retry_pending",
+  "collector_state": "run_in_progress",
   "current_checkpoint_key": "2026-06-16T06:00-05:00",
-  "daily_run_active": false,
+  "daily_run_active": true,
   "daily_status": {
     "attempted": true,
     "audit_passed": true,
@@ -25,8 +25,8 @@
     "status": "retry_later",
     "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20260616T130126Z_fe63da-summary.json"
   },
-  "generated_at": "2026-06-16T08:31:27-05:00",
-  "generated_at_utc": "2026-06-16T13:31:27+00:00",
+  "generated_at": "2026-06-16T08:45:18-05:00",
+  "generated_at_utc": "2026-06-16T13:45:18+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -41,16 +41,16 @@
     "status": "completed"
   },
   "latest_run": {
-    "aborted_reason": "Canary failed: Quiroga: Failed to perform, curl: (6) Could not resolve host: www.airbnb.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details. | Modern A frame: Failed to perform, curl: (6) Could not resolve host: www.airbnb.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details. | Onera 1: Failed to perform, curl: (6) Could not resolve host: www.airbnb.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details. | Onera 2: Failed to perform, curl: (6) Could not resolve host: www.airbnb.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "aborted_reason": null,
     "audit_failed_checks": 0,
-    "audit_passed": 1,
+    "audit_passed": null,
     "completed_tasks": 0,
     "failed_tasks": 0,
-    "finished_at": "2026-06-16T13:01:26+00:00",
+    "finished_at": null,
     "planned_tasks": 1110,
-    "run_id": "run_20260616T130126Z_fe63da",
-    "started_at": "2026-06-16T13:01:26+00:00",
-    "status": "aborted"
+    "run_id": "run_20260616T133127Z_bebff0",
+    "started_at": "2026-06-16T13:31:27+00:00",
+    "status": "running"
   },
   "local_date": "2026-06-16",
   "machine_alive": true,
