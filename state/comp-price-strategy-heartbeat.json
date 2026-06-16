@@ -25,8 +25,8 @@
     "status": "retry_later",
     "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20260616T130126Z_fe63da-summary.json"
   },
-  "generated_at": "2026-06-16T08:45:18-05:00",
-  "generated_at_utc": "2026-06-16T13:45:18+00:00",
+  "generated_at": "2026-06-16T09:15:20-05:00",
+  "generated_at_utc": "2026-06-16T14:15:20+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -48,8 +48,8 @@
     "failed_tasks": 0,
     "finished_at": null,
     "planned_tasks": 1110,
-    "run_id": "run_20260616T133127Z_bebff0",
-    "started_at": "2026-06-16T13:31:27+00:00",
+    "run_id": "run_20260616T134519Z_898cb9",
+    "started_at": "2026-06-16T13:45:19+00:00",
     "status": "running"
   },
   "local_date": "2026-06-16",
