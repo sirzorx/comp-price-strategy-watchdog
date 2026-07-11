@@ -5,15 +5,15 @@
     14,
     18
   ],
-  "collector_state": "run_in_progress",
+  "collector_state": "idle_retry_pending",
   "current_checkpoint_key": "2026-07-11T11:00-05:00",
-  "daily_run_active": true,
+  "daily_run_active": false,
   "daily_status": {
     "attempted": true,
     "audit_passed": false,
-    "checked_at": "2026-07-11T10:34:14-05:00",
+    "checked_at": "2026-07-11T11:47:32-05:00",
     "dashboard_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/reports/dashboard.html",
-    "export_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/data/run_20260711T153414Z_b4fb72.csv",
+    "export_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/data/run_20260711T164732Z_d7dcf9.csv",
     "heartbeat_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/reports/heartbeat.json",
     "heartbeat_sync_reason": "daily_run_local_only",
     "heartbeat_sync_status": "skipped",
@@ -21,12 +21,12 @@
     "notification_reason": "duplicate_incident",
     "notification_status": "skipped",
     "reason": "run_failed_or_audit_failed",
-    "run_id": "run_20260711T153414Z_b4fb72",
+    "run_id": "run_20260711T164732Z_d7dcf9",
     "status": "retry_later",
-    "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20260711T153414Z_b4fb72-summary.json"
+    "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20260711T164732Z_d7dcf9-summary.json"
   },
-  "generated_at": "2026-07-11T12:07:57-05:00",
-  "generated_at_utc": "2026-07-11T17:07:57+00:00",
+  "generated_at": "2026-07-11T12:37:58-05:00",
+  "generated_at_utc": "2026-07-11T17:37:58+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -42,15 +42,15 @@
   },
   "latest_run": {
     "aborted_reason": null,
-    "audit_failed_checks": 0,
-    "audit_passed": null,
-    "completed_tasks": 0,
+    "audit_failed_checks": 2,
+    "audit_passed": 0,
+    "completed_tasks": 1050,
     "failed_tasks": 0,
-    "finished_at": null,
+    "finished_at": "2026-07-11T17:30:35+00:00",
     "planned_tasks": 1110,
     "run_id": "run_20260711T164732Z_d7dcf9",
     "started_at": "2026-07-11T16:47:32+00:00",
-    "status": "running"
+    "status": "completed"
   },
   "local_date": "2026-07-11",
   "machine_alive": true,
