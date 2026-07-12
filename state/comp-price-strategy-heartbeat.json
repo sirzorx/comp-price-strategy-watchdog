@@ -5,9 +5,9 @@
     14,
     18
   ],
-  "collector_state": "idle_retry_pending",
-  "current_checkpoint_key": "2026-07-12T11:00-05:00",
-  "daily_run_active": false,
+  "collector_state": "run_in_progress",
+  "current_checkpoint_key": "2026-07-12T14:00-05:00",
+  "daily_run_active": true,
   "daily_status": {
     "attempted": true,
     "audit_passed": false,
@@ -25,8 +25,8 @@
     "status": "retry_later",
     "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20260712T173059Z_e4fae8-summary.json"
   },
-  "generated_at": "2026-07-12T13:39:57-05:00",
-  "generated_at_utc": "2026-07-12T18:39:57+00:00",
+  "generated_at": "2026-07-12T14:10:03-05:00",
+  "generated_at_utc": "2026-07-12T19:10:03+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -42,15 +42,15 @@
   },
   "latest_run": {
     "aborted_reason": null,
-    "audit_failed_checks": 2,
-    "audit_passed": 0,
-    "completed_tasks": 1050,
+    "audit_failed_checks": 0,
+    "audit_passed": null,
+    "completed_tasks": 0,
     "failed_tasks": 0,
-    "finished_at": "2026-07-12T18:12:31+00:00",
+    "finished_at": null,
     "planned_tasks": 1110,
-    "run_id": "run_20260712T173059Z_e4fae8",
-    "started_at": "2026-07-12T17:30:59+00:00",
-    "status": "completed"
+    "run_id": "run_20260712T184232Z_7ae051",
+    "started_at": "2026-07-12T18:42:32+00:00",
+    "status": "running"
   },
   "local_date": "2026-07-12",
   "machine_alive": true,
