@@ -6,7 +6,7 @@
     18
   ],
   "collector_state": "run_in_progress",
-  "current_checkpoint_key": null,
+  "current_checkpoint_key": "2026-07-27T06:00-05:00",
   "daily_run_active": true,
   "daily_status": {
     "attempted": false,
@@ -25,8 +25,8 @@
     "status": "skipped",
     "summary_path": null
   },
-  "generated_at": "2026-07-27T05:47:15-05:00",
-  "generated_at_utc": "2026-07-27T10:47:15+00:00",
+  "generated_at": "2026-07-27T06:17:17-05:00",
+  "generated_at_utc": "2026-07-27T11:17:17+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
