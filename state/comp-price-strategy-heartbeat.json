@@ -5,15 +5,15 @@
     14,
     18
   ],
-  "collector_state": "run_in_progress",
+  "collector_state": "idle_retry_pending",
   "current_checkpoint_key": "2026-08-20T11:00-05:00",
-  "daily_run_active": true,
+  "daily_run_active": false,
   "daily_status": {
     "attempted": true,
     "audit_passed": false,
-    "checked_at": "2026-08-20T10:09:35-05:00",
+    "checked_at": "2026-08-20T11:17:32-05:00",
     "dashboard_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/reports/dashboard.html",
-    "export_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/data/run_20260820T150935Z_2df803.csv",
+    "export_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/data/run_20260820T161732Z_5f90e7.csv",
     "heartbeat_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/reports/heartbeat.json",
     "heartbeat_sync_reason": "daily_run_local_only",
     "heartbeat_sync_status": "skipped",
@@ -21,12 +21,12 @@
     "notification_reason": "duplicate_incident",
     "notification_status": "skipped",
     "reason": "run_failed_or_audit_failed",
-    "run_id": "run_20260820T150935Z_2df803",
+    "run_id": "run_20260820T161732Z_5f90e7",
     "status": "retry_later",
-    "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20260820T150935Z_2df803-summary.json"
+    "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20260820T161732Z_5f90e7-summary.json"
   },
-  "generated_at": "2026-08-20T11:47:54-05:00",
-  "generated_at_utc": "2026-08-20T16:47:54+00:00",
+  "generated_at": "2026-08-20T12:17:56-05:00",
+  "generated_at_utc": "2026-08-20T17:17:56+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -41,16 +41,16 @@
     "status": "completed"
   },
   "latest_run": {
-    "aborted_reason": null,
-    "audit_failed_checks": 0,
-    "audit_passed": null,
-    "completed_tasks": 0,
-    "failed_tasks": 0,
-    "finished_at": null,
+    "aborted_reason": "Exceeded consecutive system error threshold",
+    "audit_failed_checks": 2,
+    "audit_passed": 0,
+    "completed_tasks": 990,
+    "failed_tasks": 128,
+    "finished_at": "2026-08-20T16:56:43+00:00",
     "planned_tasks": 1140,
     "run_id": "run_20260820T161732Z_5f90e7",
     "started_at": "2026-08-20T16:17:32+00:00",
-    "status": "running"
+    "status": "aborted"
   },
   "local_date": "2026-08-20",
   "machine_alive": true,
