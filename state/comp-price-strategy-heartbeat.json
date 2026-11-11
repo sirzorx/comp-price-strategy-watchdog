@@ -25,8 +25,8 @@
     "status": "retry_later",
     "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20261111T162407Z_75806c-summary.json"
   },
-  "generated_at": "2026-11-11T11:47:47-06:00",
-  "generated_at_utc": "2026-11-11T17:47:47+00:00",
+  "generated_at": "2026-11-11T12:17:49-06:00",
+  "generated_at_utc": "2026-11-11T18:17:49+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
