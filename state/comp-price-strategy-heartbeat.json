@@ -11,9 +11,9 @@
   "daily_status": {
     "attempted": true,
     "audit_passed": false,
-    "checked_at": "2026-11-11T11:38:08-06:00",
+    "checked_at": "2026-11-11T13:02:06-06:00",
     "dashboard_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/reports/dashboard.html",
-    "export_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/data/run_20261111T173808Z_497f62.csv",
+    "export_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/data/run_20261111T190206Z_01aab0.csv",
     "heartbeat_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/reports/heartbeat.json",
     "heartbeat_sync_reason": "daily_run_local_only",
     "heartbeat_sync_status": "skipped",
@@ -21,12 +21,12 @@
     "notification_reason": "incident_alert_sent",
     "notification_status": "sent",
     "reason": "run_failed_or_audit_failed",
-    "run_id": "run_20261111T173808Z_497f62",
+    "run_id": "run_20261111T190206Z_01aab0",
     "status": "retry_later",
-    "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20261111T173808Z_497f62-summary.json"
+    "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20261111T190206Z_01aab0-summary.json"
   },
-  "generated_at": "2026-11-11T12:47:50-06:00",
-  "generated_at_utc": "2026-11-11T18:47:50+00:00",
+  "generated_at": "2026-11-11T13:17:53-06:00",
+  "generated_at_utc": "2026-11-11T19:17:53+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -41,16 +41,16 @@
     "status": "completed"
   },
   "latest_run": {
-    "aborted_reason": null,
+    "aborted_reason": "Exceeded consecutive system error threshold",
     "audit_failed_checks": 2,
     "audit_passed": 0,
-    "completed_tasks": 1084,
-    "failed_tasks": 33,
-    "finished_at": "2026-11-11T18:32:04+00:00",
+    "completed_tasks": 458,
+    "failed_tasks": 562,
+    "finished_at": "2026-11-11T19:16:40+00:00",
     "planned_tasks": 1140,
-    "run_id": "run_20261111T173808Z_497f62",
-    "started_at": "2026-11-11T17:38:08+00:00",
-    "status": "completed"
+    "run_id": "run_20261111T190206Z_01aab0",
+    "started_at": "2026-11-11T19:02:06+00:00",
+    "status": "aborted"
   },
   "local_date": "2026-11-11",
   "machine_alive": true,
