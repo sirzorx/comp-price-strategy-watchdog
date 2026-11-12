@@ -5,15 +5,15 @@
     14,
     18
   ],
-  "collector_state": "run_in_progress",
+  "collector_state": "idle_retry_pending",
   "current_checkpoint_key": "2026-11-12T14:00-06:00",
-  "daily_run_active": true,
+  "daily_run_active": false,
   "daily_status": {
     "attempted": true,
     "audit_passed": false,
-    "checked_at": "2026-11-12T15:10:46-06:00",
+    "checked_at": "2026-11-12T16:35:03-06:00",
     "dashboard_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/reports/dashboard.html",
-    "export_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/data/run_20261112T211046Z_6eb11b.csv",
+    "export_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/data/run_20261112T223503Z_1853fe.csv",
     "heartbeat_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/reports/heartbeat.json",
     "heartbeat_sync_reason": "daily_run_local_only",
     "heartbeat_sync_status": "skipped",
@@ -21,12 +21,12 @@
     "notification_reason": "incident_alert_sent",
     "notification_status": "sent",
     "reason": "run_failed_or_audit_failed",
-    "run_id": "run_20261112T211046Z_6eb11b",
+    "run_id": "run_20261112T223503Z_1853fe",
     "status": "retry_later",
-    "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20261112T211046Z_6eb11b-summary.json"
+    "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20261112T223503Z_1853fe-summary.json"
   },
-  "generated_at": "2026-11-12T17:19:43-06:00",
-  "generated_at_utc": "2026-11-12T23:19:43+00:00",
+  "generated_at": "2026-11-12T17:49:45-06:00",
+  "generated_at_utc": "2026-11-12T23:49:45+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -41,16 +41,16 @@
     "status": "completed"
   },
   "latest_run": {
-    "aborted_reason": null,
-    "audit_failed_checks": 0,
-    "audit_passed": null,
-    "completed_tasks": 0,
-    "failed_tasks": 0,
-    "finished_at": null,
+    "aborted_reason": "Exceeded consecutive system error threshold for airbnb",
+    "audit_failed_checks": 2,
+    "audit_passed": 0,
+    "completed_tasks": 545,
+    "failed_tasks": 87,
+    "finished_at": "2026-11-12T23:24:39+00:00",
     "planned_tasks": 1140,
     "run_id": "run_20261112T223503Z_1853fe",
     "started_at": "2026-11-12T22:35:03+00:00",
-    "status": "running"
+    "status": "aborted"
   },
   "local_date": "2026-11-12",
   "machine_alive": true,
