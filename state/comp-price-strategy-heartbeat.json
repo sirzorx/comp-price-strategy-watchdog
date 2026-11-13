@@ -5,9 +5,9 @@
     14,
     18
   ],
-  "collector_state": "idle_skipped",
+  "collector_state": "run_in_progress",
   "current_checkpoint_key": null,
-  "daily_run_active": false,
+  "daily_run_active": true,
   "daily_status": {
     "attempted": false,
     "audit_passed": null,
@@ -25,8 +25,8 @@
     "status": "skipped",
     "summary_path": null
   },
-  "generated_at": "2026-11-13T05:20:30-06:00",
-  "generated_at_utc": "2026-11-13T11:20:30+00:00",
+  "generated_at": "2026-11-13T05:50:32-06:00",
+  "generated_at_utc": "2026-11-13T11:50:32+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -41,16 +41,16 @@
     "status": "completed"
   },
   "latest_run": {
-    "aborted_reason": "Exceeded consecutive system error threshold for airbnb",
-    "audit_failed_checks": 2,
-    "audit_passed": 0,
-    "completed_tasks": 582,
-    "failed_tasks": 130,
-    "finished_at": "2026-11-13T05:55:46+00:00",
+    "aborted_reason": null,
+    "audit_failed_checks": 0,
+    "audit_passed": null,
+    "completed_tasks": 0,
+    "failed_tasks": 0,
+    "finished_at": null,
     "planned_tasks": 1140,
-    "run_id": "run_20261113T050540Z_84afda",
-    "started_at": "2026-11-13T05:05:40+00:00",
-    "status": "aborted"
+    "run_id": "run_20261113T112551Z_200c16",
+    "started_at": "2026-11-13T11:25:51+00:00",
+    "status": "running"
   },
   "local_date": "2026-11-13",
   "machine_alive": true,
