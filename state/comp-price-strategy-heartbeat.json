@@ -11,7 +11,7 @@
   "daily_status": {
     "attempted": true,
     "audit_passed": null,
-    "checked_at": "2026-11-13T12:48:25-06:00",
+    "checked_at": "2026-11-13T13:18:29-06:00",
     "dashboard_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/reports/dashboard.html",
     "export_path": null,
     "heartbeat_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/reports/heartbeat.json",
@@ -21,12 +21,12 @@
     "notification_reason": "duplicate_incident",
     "notification_status": "skipped",
     "reason": "run_failed_or_audit_failed",
-    "run_id": "run_20261113T184825Z_8ab22b",
+    "run_id": "run_20261113T191829Z_d14df6",
     "status": "retry_later",
-    "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20261113T184825Z_8ab22b-summary.json"
+    "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20261113T191829Z_d14df6-summary.json"
   },
-  "generated_at": "2026-11-13T12:51:01-06:00",
-  "generated_at_utc": "2026-11-13T18:51:01+00:00",
+  "generated_at": "2026-11-13T13:21:03-06:00",
+  "generated_at_utc": "2026-11-13T19:21:03+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -46,10 +46,10 @@
     "audit_passed": null,
     "completed_tasks": 0,
     "failed_tasks": 0,
-    "finished_at": "2026-11-13T18:48:27+00:00",
+    "finished_at": "2026-11-13T19:18:31+00:00",
     "planned_tasks": 1140,
-    "run_id": "run_20261113T184825Z_8ab22b",
-    "started_at": "2026-11-13T18:48:25+00:00",
+    "run_id": "run_20261113T191829Z_d14df6",
+    "started_at": "2026-11-13T19:18:29+00:00",
     "status": "aborted"
   },
   "local_date": "2026-11-13",
