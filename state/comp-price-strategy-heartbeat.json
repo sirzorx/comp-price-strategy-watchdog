@@ -5,9 +5,9 @@
     14,
     18
   ],
-  "collector_state": "idle_retry_pending",
+  "collector_state": "run_in_progress",
   "current_checkpoint_key": "2026-11-12T18:00-06:00",
-  "daily_run_active": false,
+  "daily_run_active": true,
   "daily_status": {
     "attempted": true,
     "audit_passed": false,
@@ -25,8 +25,8 @@
     "status": "retry_later",
     "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20261113T012452Z_9186e6-summary.json"
   },
-  "generated_at": "2026-11-12T20:19:55-06:00",
-  "generated_at_utc": "2026-11-13T02:19:55+00:00",
+  "generated_at": "2026-11-12T20:49:57-06:00",
+  "generated_at_utc": "2026-11-13T02:49:57+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -41,16 +41,16 @@
     "status": "completed"
   },
   "latest_run": {
-    "aborted_reason": "Exceeded consecutive system error threshold for airbnb",
-    "audit_failed_checks": 2,
-    "audit_passed": 0,
-    "completed_tasks": 556,
-    "failed_tasks": 64,
-    "finished_at": "2026-11-13T02:07:09+00:00",
+    "aborted_reason": null,
+    "audit_failed_checks": 0,
+    "audit_passed": null,
+    "completed_tasks": 0,
+    "failed_tasks": 0,
+    "finished_at": null,
     "planned_tasks": 1140,
-    "run_id": "run_20261113T012452Z_9186e6",
-    "started_at": "2026-11-13T01:24:52+00:00",
-    "status": "aborted"
+    "run_id": "run_20261113T023711Z_34dcff",
+    "started_at": "2026-11-13T02:37:11+00:00",
+    "status": "running"
   },
   "local_date": "2026-11-12",
   "machine_alive": true,
