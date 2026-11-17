@@ -5,9 +5,9 @@
     14,
     18
   ],
-  "collector_state": "idle_retry_pending",
+  "collector_state": "run_in_progress",
   "current_checkpoint_key": "2026-11-17T06:00-06:00",
-  "daily_run_active": false,
+  "daily_run_active": true,
   "daily_status": {
     "attempted": true,
     "audit_passed": false,
@@ -25,8 +25,8 @@
     "status": "retry_later",
     "summary_path": "/Users/ederaguirre/Claude/_Projects/comp-price-strategy/logs/run_20261117T130114Z_fc6d2b-summary.json"
   },
-  "generated_at": "2026-11-17T07:27:37-06:00",
-  "generated_at_utc": "2026-11-17T13:27:37+00:00",
+  "generated_at": "2026-11-17T07:57:39-06:00",
+  "generated_at_utc": "2026-11-17T13:57:39+00:00",
   "heartbeat_version": 2,
   "latest_audited_success": {
     "aborted_reason": null,
@@ -41,16 +41,16 @@
     "status": "completed"
   },
   "latest_run": {
-    "aborted_reason": "Airbnb preflight failed: Quiroga: Airbnb returned HTTP 400 | Modern A frame: Airbnb returned HTTP 400 | Onera 1: Airbnb returned HTTP 400 | Onera 2: Airbnb returned HTTP 400",
-    "audit_failed_checks": 2,
-    "audit_passed": 0,
-    "completed_tasks": 360,
+    "aborted_reason": null,
+    "audit_failed_checks": 0,
+    "audit_passed": null,
+    "completed_tasks": 0,
     "failed_tasks": 0,
-    "finished_at": "2026-11-17T13:21:46+00:00",
+    "finished_at": null,
     "planned_tasks": 1140,
-    "run_id": "run_20261117T130114Z_fc6d2b",
-    "started_at": "2026-11-17T13:01:14+00:00",
-    "status": "aborted"
+    "run_id": "run_20261117T135148Z_e2cfd3",
+    "started_at": "2026-11-17T13:51:48+00:00",
+    "status": "running"
   },
   "local_date": "2026-11-17",
   "machine_alive": true,
